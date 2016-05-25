@@ -2,7 +2,7 @@
 title: "longevityDrugs: Database of Longevity-Associated Drugs (LAD)" 
 author: "Authors: Thomas Girke, Tyler Backman, Dan Evans"
 date: "Last update: `r format(Sys.time(), '%d %B, %Y')`" 
-package: "`r pkg_ver('longevityTools')`"
+package: "`r pkg_ver('longevityDrugs')`"
 output:
   BiocStyle::html_document:
     toc: true
