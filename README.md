@@ -5,8 +5,7 @@ R data package containing structures, properties and annotations of small molecu
 * [longevityTools](https://htmlpreview.github.io/?https://github.com/tgirke/longevityTools/blob/master/vignettes/longevityTools.html): overview vignette
 * [longevityTools_eQTL](https://htmlpreview.github.io/?https://github.com/tgirke/longevityTools/blob/master/vignettes/longevityTools_eQTL.html): eQTL, eSNP and GWAS analysis
 * [longevityTools_eDRUG](https://htmlpreview.github.io/?https://github.com/tgirke/longevityTools/blob/master/vignettes/longevityTools_eDRUG.html): connecting drug- and age-related gene expression signatures
-* [longevityDrugs](http://girke.bioinformatics.ucr.edu/longevityTools/mydoc/mydoc_longevityDrugs_1.html): this package
-* longevityTools_Drugs: coming soon
+* [longevityDrugs](https://htmlpreview.github.io/?https://github.com/tgirke/longevityDrugs/blob/master/vignettes/longevityDrugs.html): this package
 
 #### Installation 
 
