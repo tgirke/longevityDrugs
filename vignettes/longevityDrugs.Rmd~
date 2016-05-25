@@ -94,15 +94,20 @@ conn <- initDb(mypath)
 
 
 # Query database
-```{r query_database, eval=TRUE}
+
+## Retrieve compound structures
+```{r query_structures, eval=TRUE}
 results <- getAllCompoundIds(conn)
 sdfset <- getCompounds(conn, results, keepOrder=TRUE)
 sdfset
+plot(sdfset[1:4], print=TRUE)
 as.data.frame(datablock2ma(datablock(sdfset)))[1:4,]
+```
+
+```{r query_properties, eval=TRUE}
 myfeat <- listFeatures(conn)
 feat <- getCompoundFeatures(conn, results, myfeat)
 feat[1:4,]
-plot(sdfset[1:4])
 ```
 
 <div align="right">[Back to Table of Contents]()</div>

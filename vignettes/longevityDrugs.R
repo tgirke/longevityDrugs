@@ -22,15 +22,17 @@ library(RSQLite); library(ChemmineR); library(longevityDrugs)
 mypath <- system.file("extdata", "cmap.db", package="longevityDrugs")
 conn <- initDb(mypath)
 
-## ----query_database, eval=TRUE-------------------------------------------
+## ----query_structures, eval=TRUE-----------------------------------------
 results <- getAllCompoundIds(conn)
 sdfset <- getCompounds(conn, results, keepOrder=TRUE)
 sdfset
+plot(sdfset[1:4], print=TRUE)
 as.data.frame(datablock2ma(datablock(sdfset)))[1:4,]
+
+## ----query_properties, eval=TRUE-----------------------------------------
 myfeat <- listFeatures(conn)
 feat <- getCompoundFeatures(conn, results, myfeat)
 feat[1:4,]
-plot(sdfset[1:4])
 
 ## ----sessionInfo---------------------------------------------------------
 sessionInfo()
