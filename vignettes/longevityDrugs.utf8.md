@@ -117,128 +117,10 @@ sdfset
 ```
 
 ```r
-plot(sdfset[1:4], print=TRUE)
+plot(sdfset[1:4], print=FALSE)
 ```
 
 ![](longevityDrugs_files/figure-html/query_structures-1.png)<!-- -->
-
-```
-## $`201`
-## An instance of "SDF"
-## 
-## <<header>>
-##                             Molecule_Name                                    Source 
-##                               "metformin"                  " OpenBabel05151615202D" 
-##                                   Comment                               Counts_Line 
-##                                        "" "  9  8  0  0  0  0  0  0  0  0999 V2000" 
-## 
-## <<atomblock>>
-##         C1   C2  C3  C5  C6  C7  C8  C9 C10 C11 C12 C13 C14 C15 C16
-## C_1 -0.866 -0.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## N_2 -0.866 -1.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## ...    ...  ... ... ... ... ... ... ... ... ... ... ... ... ... ...
-## N_8 1.7321    0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## N_9      0    0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## 
-## <<bondblock>>
-##      C1  C2  C3  C4  C5  C6  C7
-## 1     1   2   1   0   0   0   0
-## 2     2   3   1   0   0   0   0
-## ... ... ... ... ... ... ... ...
-## 7     7   8   2   0   0   0   0
-## 8     7   9   1   0   0   0   0
-## 
-## <<datablock>> (28 data items)
-## instance_id    batch_id   cmap_name        INN1             
-##         "1"         "1" "metformin"       "INN"       "..." 
-## 
-## $`202`
-## An instance of "SDF"
-## 
-## <<header>>
-##                             Molecule_Name                                    Source 
-##                              "phenformin"                  " OpenBabel05151615202D" 
-##                                   Comment                               Counts_Line 
-##                                        "" " 15 15  0  0  0  0  0  0  0  0999 V2000" 
-## 
-## <<atomblock>>
-##           C1   C2  C3  C5  C6  C7  C8  C9 C10 C11 C12 C13 C14 C15 C16
-## N_1  -2.5981 -4.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## C_2  -1.7321   -5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## ...      ...  ... ... ... ... ... ... ... ... ... ... ... ... ... ...
-## C_14       0    1   0   0   0   0   0   0   0   0   0   0   0   0   0
-## C_15       0    0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## 
-## <<bondblock>>
-##      C1  C2  C3  C4  C5  C6  C7
-## 1     1   2   1   0   0   0   0
-## 2     2   3   2   0   0   0   0
-## ... ... ... ... ... ... ... ...
-## 14   13  14   1   0   0   0   0
-## 15   14  15   2   0   0   0   0
-## 
-## <<datablock>> (28 data items)
-##  instance_id     batch_id    cmap_name         INN1              
-##         "21"          "2" "phenformin"        "INN"        "..." 
-## 
-## $`203`
-## An instance of "SDF"
-## 
-## <<header>>
-##                             Molecule_Name                                    Source 
-##                        "phenyl biguanide"                  " OpenBabel05151615202D" 
-##                                   Comment                               Counts_Line 
-##                                        "" " 13 13  0  0  0  0  0  0  0  0999 V2000" 
-## 
-## <<atomblock>>
-##           C1   C2  C3  C5  C6  C7  C8  C9 C10 C11 C12 C13 C14 C15 C16
-## N_1  -1.7321   -3   0   0   0   0   0   0   0   0   0   0   0   0   0
-## C_2   -0.866 -3.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## ...      ...  ... ... ... ... ... ... ... ... ... ... ... ... ... ...
-## C_12       0    1   0   0   0   0   0   0   0   0   0   0   0   0   0
-## C_13       0    0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## 
-## <<bondblock>>
-##      C1  C2  C3  C4  C5  C6  C7
-## 1     1   2   1   0   0   0   0
-## 2     2   3   2   0   0   0   0
-## ... ... ... ... ... ... ... ...
-## 12   11  12   1   0   0   0   0
-## 13   12  13   2   0   0   0   0
-## 
-## <<datablock>> (28 data items)
-##        instance_id           batch_id          cmap_name               INN1                    
-##               "22"                "2" "phenyl biguanide"                 ""              "..." 
-## 
-## $`204`
-## An instance of "SDF"
-## 
-## <<header>>
-##                             Molecule_Name                                    Source 
-##                           "valproic acid"                  " OpenBabel05151615202D" 
-##                                   Comment                               Counts_Line 
-##                                        "" " 10  9  0  0  0  0  0  0  0  0999 V2000" 
-## 
-## <<atomblock>>
-##           C1  C2  C3  C5  C6  C7  C8  C9 C10 C11 C12 C13 C14 C15 C16
-## C_1    0.866 0.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## C_2    0.866 1.5   0   0   0   0   0   0   0   0   0   0   0   0   0
-## ...      ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...
-## O_9  -1.7321   0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## O_10       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
-## 
-## <<bondblock>>
-##      C1  C2  C3  C4  C5  C6  C7
-## 1     1   2   1   0   0   0   0
-## 2     2   3   1   0   0   0   0
-## ... ... ... ... ... ... ... ...
-## 8     8   9   2   0   0   0   0
-## 9     8  10   1   0   0   0   0
-## 
-## <<datablock>> (28 data items)
-##     instance_id        batch_id       cmap_name            INN1                 
-##            "23"             "2" "valproic acid"           "INN"           "..."
-```
 
 ```r
 as.data.frame(datablock2ma(datablock(sdfset)))[1:4,]
@@ -272,6 +154,7 @@ as.data.frame(datablock2ma(datablock(sdfset)))[1:4,]
 ## 204              0         CCCC(CCC)C(=O)O
 ```
 
+## Retrieve compound properties
 
 ```r
 myfeat <- listFeatures(conn)

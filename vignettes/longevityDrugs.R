@@ -26,7 +26,7 @@ conn <- initDb(mypath)
 results <- getAllCompoundIds(conn)
 sdfset <- getCompounds(conn, results, keepOrder=TRUE)
 sdfset
-plot(sdfset[1:4], print=TRUE)
+plot(sdfset[1:4], print=FALSE)
 as.data.frame(datablock2ma(datablock(sdfset)))[1:4,]
 
 ## ----query_properties, eval=TRUE-----------------------------------------
