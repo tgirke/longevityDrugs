@@ -31,6 +31,7 @@ Thomas Girke
 \examples{
 
 ## Build database
+library(RSQLite); library(ChemmineR)
 buildCMAPdb(rerun=FALSE) # Set to TRUE
 
 ## Load database
