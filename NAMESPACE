@@ -1,0 +1,9 @@
+## Functions
+# exportPattern("^[[:alpha:]]+")
+
+export(
+    ## Data sets
+
+    ## Utilities
+    "buildCMAPdb" 
+) 
